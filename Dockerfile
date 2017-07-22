@@ -1,5 +1,7 @@
 FROM php:7.0.14-apache
 
+LABEL description="PHP7.0.14"
+
 RUN apt-get update && apt-get install -y \
         libfreetype6-dev \
         libjpeg62-turbo-dev \
